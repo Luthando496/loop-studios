@@ -682,14 +682,19 @@ h5 {
   border-width: 2px;
 }
 
+.border-red-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+}
+
 .border-blue-50 {
   --tw-border-opacity: 1;
   border-color: rgb(239 246 255 / var(--tw-border-opacity));
 }
 
-.border-red-600 {
+.border-gray-600 {
   --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+  border-color: rgb(75 85 99 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -744,6 +749,11 @@ h5 {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -840,7 +850,7 @@ h5 {
 }
 
 #hero{
-  background-image: url('../images/desktop/image-hero.jpg');
+  background-image: url('../images/desktop/pexels-alexander-dummer-134469.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
